@@ -37,29 +37,22 @@
       text-align: center;
       margin: 2rem 0;
     }
-    button {
-      background: #B0E0E6;
-      color: white;
-      border: none;
-      padding: 0.9rem 1.2rem;
-      margin: 0.5rem;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1.2rem;
-    }
+button {
+  margin: 5px;
+  padding: 20px 30px;
+  border: none;
+  background: #ADD8E6;
+  color: white;
+  border-radius: 25px; /* makes it oblong */
+  cursor: pointer;
+font-size: 20px;
+}
     button:hover {
       background: #1E3A8A;
     }
     ul {
       list-style-type: square;
       padding-left: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #ffffff;
-      color: black;
-      margin-top: 2rem;
     }
 
     /* Advice Box Styling */
@@ -73,6 +66,7 @@
       border-radius: 4px;
       min-height: 50px;
     }
+
   </style>
 </head>
 <body>
@@ -89,7 +83,7 @@
     <button onclick="showSection('projects')">Projects</button>
     <button onclick="showSection('current trends')">Current trends</button>
     <button onclick="showSection('simulation')">Advice</button>
-    <button onclick="showSection('credits')">Credits</button>
+    <button onclick="showSection('math game')">Math Game</button>
     <button onclick="showSection('about the author')">About the author</button>
   </div>
 
@@ -154,29 +148,38 @@
     <section id="projects" style="display:none;">
       <h2>Structural Engineering Projects</h2>
       <ul>
-        <li>Bridges</li>
+<li>Bridges</li>
+<img src="bridge.jpg" alt="Bridge image" style="width:300px;">        
         <li>Skyscrapers</li>
+<img src="skyscrapers.jpg" alt="Skyscapers image" style="width:300px;"> 
         <li>Stadiums</li>
-        <li>High-rise buildings</li>
+<img src="stadium.webp" alt="Stadiums image" style="width:300px;"> 
       </ul>
       <h2>Transportation Engineering Projects</h2>
       <ul>
         <li>Highways and Road Networks</li>
+<img src="highways.jpg" alt="Highways and Road Networks image" style="width:300px;">
         <li>Railways and Subways</li>
+<img src="railways.jpg" alt="Railways and Subways image" style="width:300px;">
         <li>Airports</li>
+<img src="airports.jpg" alt="Airports image" style="width:300px;">
+
       </ul>
       <h2>Water Resource and Environment Projects</h2>
       <ul>
         <li>Dams and Reservoirs</li>
-        <li>Wastewater Treatment Plants</li>
+<img src="dams.jpg" alt="Dams and Reservoirs image" style="width:300px;">
         <li>Aqueducts and Pipelines</li>
+<img src="aqueduct.jpg" alt="Aqueducts and Pipelines image" style="width:300px;">
         <li>Stormwater and Flood Management</li>
+<img src="stormwater.jpg" alt="Stormwater and Flood Management image" style="width:300px;">
       </ul>
       <h2>Geotechnical Engineering Projects</h2>
       <ul>
-        <li>Foundations</li>
-        <li>Retaining Walls and Levees</li>
+              <li>Retaining Walls and Levees</li>
+<img src="wall.jpg" alt="Retaining Walls and Levees image" style="width:300px;">
         <li>Tunnels and Underground Spaces</li>
+<img src="tunnels.png" alt="Tunnels and Underground Spaces image" style="width:300px;">
       </ul>
     </section>
 
@@ -193,21 +196,35 @@
        </ul>
        </section>
 
-<section id="credits" style="display:none;">
-      <h2>Credits</h2>
-      <p>Arka360. (2026). Solar-powered smart roads: Revolutionizing transportation infrastructure. https://arka360.com/ros/solar-powered-smart-roads-transportation</p>
-      <p>Barge Design Solutions. (2026, February 16). Top engineering trends for 2026 | Revit, Civil 3D & AutoCAD 2026 innovations. https://www.bargedesign.com/blogs/top-engineering-trends-for-2026</p>
-      <p>American Society of Civil Engineers. (2025, November 10). Digital twins show great promise in civil engineering. But what’s next? Civil Engineering Source.https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/11/10/digital-twins-show-great-promise-in-civil-engineering-but-whats-next</p>
-      <p>Reddy, K. R., et al. (2026). Recent advances in geomatics, water resources and environmental engineering. Springer Nature Singapore. https://doi.org/10.1007/978-981-95-0736-8</p>
-      <p>Mapua. (2025). Real-World Impact and Contributions of Civil Engineers. https://mcl.edu.ph/contributions-of-civil-engineers-to-urban-development/</p>
-   </section>
-
+ 
  <section id="about the author" style="display:none;">
       <h2>About the Author</h2>
       <p>Valerie Lorin L. Mosquisa is a first-year Civil Engineering student from Western Mindanao State University. She developed this website to showcase the different aspects and roles of Civil Engineering.</p>
       <p>The site covers essential topics ranging from its different specialization to the current trends in Civil Engineering. The site was created to help fellow students and visitors appreciate the roles of Civil Engineering in shaping society.</p>
       <p>Motivated by bridging the gap towards sucCEs, Valerie is committed to learning the principles behind complex infrastructures as she believes that Civil Engineering is not just all about building, but also about improving the quality of life forr everyone.</p> 
 </ul>
+ <h2>Credits</h2>
+      <p>Arka360. (2026). Solar-powered smart roads: Revolutionizing transportation infrastructure. https://arka360.com/ros/solar-powered-smart-roads-transportation</p>
+      <p>Barge Design Solutions. (2026, February 16). Top engineering trends for 2026 | Revit, Civil 3D & AutoCAD 2026 innovations. https://www.bargedesign.com/blogs/top-engineering-trends-for-2026</p>
+      <p>American Society of Civil Engineers. (2025, November 10). Digital twins show great promise in civil engineering. But what’s next? Civil Engineering Source.https://www.asce.org/publications-and-news/civil-engineering-source/article/2025/11/10/digital-twins-show-great-promise-in-civil-engineering-but-whats-next</p>
+      <p>Reddy, K. R., et al. (2026). Recent advances in geomatics, water resources and environmental engineering. Springer Nature Singapore. https://doi.org/10.1007/978-981-95-0736-8</p>
+      <p>Mapua. (2025). Real-World Impact and Contributions of Civil Engineers. https://mcl.edu.ph/contributions-of-civil-engineers-to-urban-development/</p>
+<p>https://www.touropia.com/most-famous-bridges-in-the-world/</p>
+<p>https://www.archdaily.com/tag/skyscraper</p>
+<p>https://www.cafonline.com/caf-african-nations-championship/stadiums/
+<p>https://www.topgear.com.ph/news/motoring-news/mmda-intermittent-stops-fiba-world-cup-2023-a2619-20230820</p>
+<p>https://www.crownasia.com.ph/lifestyle-blog/effects-of-the-metro-manila-subway-and-railways-on-business-and-real-estate/</p>
+<p>https://en.wikipedia.org/wiki/Zamboanga_International_Airport</p>
+<p>https://www.esquiremag.ph/long-reads/features/10-Major-Dams-Philippines-a1057-20240725-lfrm</p>
+<p>https://www.truplumbingandexcavating.com/the-evolution-of-plumbing-from-ancient-times-to-modern-innovations/</p>
+<p>https://dpwh.gov.ph/dpwh/news/21080</p>
+<p>https://www.linkedin.com/pulse/uncovering-hidden-gems-comprehensive-guide-different-types-nebraska</p>
+
+https://worldofstonesusa.com/blogs/all/how-to-build-a-retaining-wall
+https://vmt.global/tunnelling/en/topic/tunnelling-for-the-future/
+
+
+   </section>
   </section>
 
  <section id="simulation" style="display:none;">
@@ -268,10 +285,104 @@
 </body>
 </html>
 
+<section id="math game" style="display:none;">
+    <h2>Math Game</h2>
 
-  <footer>
-    <p>&copy; 2026 Valerie. All rights reserved.</p>
-  </footer>
+  <p id="question">Click Start to begin</p>
+
+  <input type="number" id="answer">
+
+  <br><br>
+
+  <button onclick="startGame()">Start</button>
+  <button onclick="checkAnswer()">Submit</button>
+
+  <p id="result"></p>
+  <p>Score: <span id="score">0</span></p>
+  <p>Question: <span id="count">0</span>/10</p>
+<script>
+function showSection(id) {
+  document.querySelectorAll("section").forEach(sec => {
+    sec.style.display = "none";
+  });
+
+  document.getElementById(id).style.display = "block";
+}
+
+let num1, num2, correctAnswer;
+let score = 0;
+let count = 0;
+let totalQuestions = 10;
+
+function startGame() {
+  score = 0;
+  count = 0;
+  nextQuestion();
+}
+
+function nextQuestion() {
+  if (count >= totalQuestions) {
+    endGame();
+    return;
+  }
+
+  count++;
+
+  let type = Math.floor(Math.random() * 3);
+
+  num1 = Math.floor(Math.random() * 20) + 1;
+  num2 = Math.floor(Math.random() * 20) + 1;
+
+  if (type === 0) {
+    correctAnswer = num1 + num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " + " + num2 + "?";
+  } 
+  else if (type === 1) {
+    correctAnswer = num1 - num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " - " + num2 + "?";
+  } 
+  else {
+    correctAnswer = num1 * num2;
+    document.getElementById("question").textContent =
+      "What is " + num1 + " × " + num2 + "?";
+  }
+
+  document.getElementById("answer").value = "";
+  document.getElementById("result").textContent = "";
+  document.getElementById("count").textContent = count;
+}
+
+function checkAnswer() {
+  let userAnswer = parseInt(document.getElementById("answer").value);
+
+  if (userAnswer === correctAnswer) {
+    document.getElementById("result").textContent = "Correct!";
+    score++;
+  } else {
+    document.getElementById("result").textContent =
+      "Wrong! Correct answer was " + correctAnswer;
+  }
+
+  document.getElementById("score").textContent = score;
+
+  nextQuestion();
+}
+
+function endGame() {
+  let message = score >= 7 ? "🎉 PASS!" : "❌ FAIL!";
+
+  document.getElementById("question").textContent =
+    "Game Over! Score: " + score + "/10";
+
+  document.getElementById("result").textContent = message;
+}
+</script>
+
+</section>
+
+
 
   <script>
     function showSection(sectionId) {
